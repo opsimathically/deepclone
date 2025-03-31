@@ -8,13 +8,13 @@
 
 > **deepClone**\<`T`\>(`input`, `options`): `T`
 
-Defined in: deepclone.ts:12
+Defined in: [deepclone.ts:12](https://github.com/opsimathically/deepclone/blob/767df64c843fb808b5322ad8016f17ceae58cf21/src/deepclone.ts#L12)
 
 ## Type Parameters
 
 ### T
 
-`T`
+`T` = `any`
 
 ## Parameters
 
@@ -36,9 +36,13 @@ Defined in: deepclone.ts:12
 
 `boolean`
 
+#### on_unclonable?
+
+`"nullify"` \| `"use_original"`
+
 #### warn_on_uncloneable?
 
-`WarnCallback`
+[`warn_callback_t`](../type-aliases/warn_callback_t.md)
 
 ## Returns
 
