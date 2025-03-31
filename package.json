@@ -1,6 +1,6 @@
 {
   "name": "@opsimathically/deepclone",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Create a deep clone of an object, which unlike the builtin structuredClone, will include functions, et al. Does not clone literally-unclonables, like sockets etc, but will handle exceptions gracefully rather than throwing. ",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -8,7 +8,6 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "ts-node -r tsconfig-paths/register test/deepclone.test.ts",
-    "example": "ts-node -r tsconfig-paths/register example/deepclone.example.ts",
     "docs": "typedoc"
   },
   "keywords": [
