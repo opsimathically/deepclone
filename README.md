@@ -32,6 +32,7 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 ```typescript
 import { deepClone, warn_callback_t } from '@opsimathically/deepclone';
 import { deepEqual } from 'fast-equals';
+import assert from 'node:assert';
 
 (async function () {
   const clone_from_obj = {
